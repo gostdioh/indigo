@@ -7,14 +7,39 @@ $footer-height: 125.5px;
 
 body, body.view-profile {
   min-height: initial;
-  background-color: #fff;
+  background-color: rgb(129,170,188);
 }
 
 %btn-pl-default-base {
   border-radius: 0;
 }
 
+// Open edX: LMS header
+// ====================
+
+.global-header{
+  
+  background-color:rgba(65,98,111,1) ;
+
+}
+
+.wrapper-footer{
+  
+  background-color:rgba(65,98,111,1) ;
+
+}
+
+.colophon a{
+  color: #80ABBC !important;
+
+}
+
+.nav-item a {
+  color: white !important;
+}
+
 .btn, .global-header .nav-links .secondary .btn {
+  
   border-radius: 0;
 }
 
@@ -70,7 +95,7 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 /////////////////// Home page
 .home header {
   box-shadow: none;
-  background-color: #fff;
+  background-color: rgb(129,170,188);
 }
 
 .home > header .title {
@@ -125,7 +150,7 @@ nav.wrapper-preview-menu {
 
 ////////////////// Course about page
 .course-info header.course-profile {
-  background: #fff;
+  background: rgb(129,170,188);
   box-shadow: none;
   border-bottom: none;
 
@@ -160,7 +185,7 @@ nav.wrapper-preview-menu {
 
 /////////////////// Course search
 .find-courses, .university-profile {
-  background-color: #fff;
+  background-color: rgb(129,170,188);
 }
 
 /////////////////// User profile
@@ -168,7 +193,7 @@ nav.wrapper-preview-menu {
   margin-top: -$content-padding-top;
 }
 .view-profile .wrapper-profile {
-  background-color: #fff;
+  background-color: rgb(129,170,188);
 }
 
 .view-profile .wrapper-profile-section-container-one .wrapper-profile-section-one {
